@@ -24,7 +24,11 @@ git push
 
 # 8.) refresh folder on github and see changes
 
-# 9.) add some more code and push
+# 9.) add some more code, inspect changes, and push
 git add .
+
+# inspect changes:
+git difftool HEAD
+
 git commit -m "added exit message"
 git push
