@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HelloWorld {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		System.out.println("Hello, world!");
 		
@@ -20,6 +20,9 @@ public class HelloWorld {
 		} else {
 			System.out.println("do your homework.");
 		}
+		
+		Thread.sleep(1000);
+		System.out.println("nice. you're done.");
 		
 	}
 

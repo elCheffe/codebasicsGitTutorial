@@ -7,6 +7,9 @@
 # 3.) add java code in the local folder
 # 4.) git add ...javacodeFiles...
 git add "HelloWorld/"
+
+# git add .		// adds everything in the folder
+
 # 5.)
 git status
 
@@ -20,3 +23,8 @@ git log
 git push
 
 # 8.) refresh folder on github and see changes
+
+# 9.) add some more code and push
+git add .
+git commit -m "added exit message"
+git push
