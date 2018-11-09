@@ -32,3 +32,27 @@ git difftool HEAD
 
 git commit -m "added exit message"
 git push
+
+###########################################################
+# tutorial 4: https://www.youtube.com/watch?v=3dk3s4LK-Wg&list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW&index=4
+#
+# undo changes
+
+# continue from last step
+# 1.) add some line in the java code
+git status
+# ok, I want to undo that last line I added in java code
+git checkout HelloWorld/src/mainPackage/HelloWorld.java
+# after running this command, the line added is gone :)
+
+# 2.) what if more than 1 file have changed?
+# option 1:
+#git checkout --filename1 --filename2
+# option 2: better
+git checkout -- .
+
+
+
+
+
+
