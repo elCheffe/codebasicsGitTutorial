@@ -1,1 +1,22 @@
-test file created on web interface
+# test file created on web interface
+
+# commands used
+
+# 1.) text file created on the web interface and committed on the web interface
+# 2.) clone from webinterface to a local folder
+# 3.) add java code in the local folder
+# 4.) git add ...javacodeFiles...
+git add "HelloWorld/"
+# 5.)
+git status
+
+# 6.) commit the java code (does NOT yet upload to github)
+git commit -m "java code hello world added"
+
+# inspect the commits :)
+git log
+
+# 7.) push to github:
+git push
+
+# 8.) refresh folder on github and see changes
